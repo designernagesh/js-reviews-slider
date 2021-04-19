@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript: Reviews Slider</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@700;800;900&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- Custom CSS Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div style="height: 90vh" class="d-flex mt-4 justify-content-center align-items-center">
+  <div class="container text-center">
+    <h1 class="display-3 text-danger">Reviews Slider</h1>
+    <p class="lead">Read the Reviews by clicking on Left Arrow, Right Arrow and Random Review Button🙂!</p>
+
+    <div class="reviewContainer">
+    <button class="btnPrevious"> <i class="fas fa-chevron-left"></i> </button>
+      <div class="reviewBox">
+        <div class="img-container">
+          <img src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxj1t.jpg" alt="image name" />
+        </div>
+        <h4 class="name"></h4>
+        <p class="designation"></p>
+        <p class="text"></p>
+      </div>
+    <button class="btnNext"> <i class="fas fa-chevron-right"></i> </button>      
+    </div>
+    <button class="btnRandom btn btn-danger">Random Review</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
